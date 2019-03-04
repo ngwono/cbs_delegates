@@ -20,6 +20,10 @@
   	  <label>Email</label>
   	  <input type="email" name="email" value="<?php echo $email; ?>">
   	</div>
+    <div class="input-group">
+    <label>Mobile</label>
+      <input type="phone" name="phone">
+    </div>
   	<div class="input-group">
   	  <label>Password</label>
   	  <input type="password" name="password_1">
@@ -28,6 +32,7 @@
   	  <label>Confirm password</label>
   	  <input type="password" name="password_2">
   	</div>
+        <div class="input-group">
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
